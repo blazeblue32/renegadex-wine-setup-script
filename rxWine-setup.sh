@@ -16,7 +16,7 @@ else
     echo "======================"
     echo "Downloading installer"
     echo "======================"
-    wget https://renxdownloads.b-cdn.net/Renegade_X_Installer-0.87-release.msi
+    wget https://drive.google.com/file/d/1YDGflSDEk3lCy8NpaHPcniwTKB8TEAAM/view?usp=drive_link
 fi
 # 2. UE3 Redist package.
 if [ -f "UE3Redist.exe" ];
@@ -28,7 +28,7 @@ else
     echo "==============================="
     echo "Downloading UE3 Redist package."
     echo "==============================="
-    wget https://renxdownloads.b-cdn.net/UE3Redist.exe
+    wget https://downloads.totemarts.services/UE3Redist.exe
 fi
 
 WINEPREFIX="$HOME/Games/RenegadeXWine" WINEARCH=win64
